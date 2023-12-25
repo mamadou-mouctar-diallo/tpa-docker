@@ -42,3 +42,44 @@ Vous pouvez personnaliser la configuration en modifiant le fichier `docker-compo
 
 *Note: Assurez-vous que les ports spécifiés ne sont pas utilisés par d'autres services sur votre machine.*
 
+## Documentation Sur ETL (Extract Transform Load)
+
+### 1. Chager les données dans MongoDB
+Pour charger les donnees daans MongoDB, il faut d'abord lancer le service MongoDB avec la commande suivante:
+```bash docker-compose up -d mongodb```
+Ensuite, il faut lancer le service mongo-express avec la commande suivante:
+```bash docker-compose up -d mongo-express```
+Enfin, il faut pull la mise a jour du repository: tpa-docker avec la commande suivante:
+```bash git pull origin master```
+Vous verrez le repertoire concessionnaire qui contient le programme java qui permet de charger les donnees dans le serveur MongoDB.
+Si vous avez votre variable d'environnement JAVA_HOME, vous pouvez lancer le programme java avec la commande suivante:
+
+```mvn clean install```
+
+```mvn exec:java -Dexec.mainClass="tpa.MongdbMain"```
+Sinon avec intelij vous pouvez lancer le programme java en choisissant la classe MongdbMain.java et cliquer sur le bouton run.
+
+NB: A votre place je ne ferai pas ca si jamais ma machine n'est pas assez puissante pour supporter tous les services en meme temps, car le chargement prend beaucoup de temps voir des heures du coup a eviter.
+
+### 2. Solution alternative pour charger les donnees dans MongoDB
+J'ai generee des fichiers json a partir des donnees csv, et j'ai utilise le service mongo-express pour charger les donnees dans MongoDB. Du coup, vous trouverez dans le repertoire tpa-docker les fichiers json de toute la base de donnees concessionnaire.
+
+Que vous ayez lance le service MongoBD dans un conteneur docker ou sur votre machine locale, vous pouvez charger les donnees dans MongoDB avec la commande suivante:
+
+```bash mongoimport --db concessionnaire --collection marketing --file marketing.json```
+
+```bash mongoimport --db concessionnaire --collection co2 --file co2.json```
+
+```bash mongoimport --db concessionnaire --collection clients --file clients.json```
+
+```bash mongoimport --db concessionnaire --collection immatriculations --file immatriculations.json```
+
+```bash mongoimport --db concessionnaire --collection catalogue --file catalogue.json```
+
+## Echange de donnees entre MongoDB, OracleNoSql et Hive
+### 1. Echange de donnees entre MongoDB et Hive
+Comin soon
+### 2. Echange de donnees entre OracleNoSql et Hive
+Comin soon
+
+Normalement avec les donnees disponibles dans MongoDB, vous pouvez faire votre travail.
