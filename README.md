@@ -46,11 +46,11 @@ Vous pouvez personnaliser la configuration en modifiant le fichier `docker-compo
 
 ### 1. Chager les données dans MongoDB
 Pour charger les donnees daans MongoDB, il faut d'abord lancer le service MongoDB avec la commande suivante:
-```bash docker-compose up -d mongodb```
+```docker-compose up -d mongodb```
 Ensuite, il faut lancer le service mongo-express avec la commande suivante:
-```bash docker-compose up -d mongo-express```
+```docker-compose up -d mongo-express```
 Enfin, il faut pull la mise a jour du repository: tpa-docker avec la commande suivante:
-```bash git pull origin master```
+```git pull origin extraction```
 Vous verrez le repertoire concessionnaire qui contient le programme java qui permet de charger les donnees dans le serveur MongoDB.
 Si vous avez votre variable d'environnement JAVA_HOME, vous pouvez lancer le programme java avec la commande suivante:
 
@@ -66,15 +66,15 @@ J'ai generee des fichiers json a partir des donnees csv, et j'ai utilise le serv
 
 Que vous ayez lance le service MongoBD dans un conteneur docker ou sur votre machine locale, vous pouvez charger les donnees dans MongoDB avec la commande suivante:
 
-```bash mongoimport --db concessionnaire --collection marketing --file marketing.json```
+```mongoimport --db concessionnaire --collection marketing --file marketing.json```
 
-```bash mongoimport --db concessionnaire --collection co2 --file co2.json```
+```mongoimport --db concessionnaire --collection co2 --file co2.json```
 
-```bash mongoimport --db concessionnaire --collection clients --file clients.json```
+```mongoimport --db concessionnaire --collection clients --file clients.json```
 
-```bash mongoimport --db concessionnaire --collection immatriculations --file immatriculations.json```
+```mongoimport --db concessionnaire --collection immatriculations --file immatriculations.json```
 
-```bash mongoimport --db concessionnaire --collection catalogue --file catalogue.json```
+```mongoimport --db concessionnaire --collection catalogue --file catalogue.json```
 
 ## Echange de donnees entre MongoDB, OracleNoSql et Hive
 ### 1. Echange de donnees entre MongoDB et Hive
@@ -91,3 +91,8 @@ Normalement si tout est bien configure, vous ne devriez pas avoir des problemes 
 Comin soon
 
 Normalement avec les donnees disponibles dans MongoDB, vous pouvez faire votre travail.
+
+## Pour telecharger les donnees des fichiers json
+J'ai rencontre des problemes pour committer et push les fichiers jsons dans le repository compte de la taille des certains fichiers,
+du coup j'ai opte pour une solution alternative qui est de mettre a votre disposition un lien de telechargement des fichiers jsons.
+Ici: https://filesender.renater.fr/?s=download&token=9b2df281-4d66-4d01-a222-2ac8917b53f3
