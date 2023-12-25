@@ -1,28 +1,57 @@
 package uca.tpa.concess.services.hive;
 
+import org.bson.Document;
 import uca.tpa.concess.entities.*;
 import uca.tpa.concess.services.connection.HiveConnectionService;
+import uca.tpa.concess.services.connection.MongodbConnectionService;
 
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 public class HiveService {
     private static Statement statement;
 
-    static class ImmatriculationService implements ICommun<ImmatriculationEntity> {
+    static class ImmatriculationService implements ICommun<ImmatriculationEntity>, IFromMongo<Document> {
+
+        @Override
+        public void createFromMongo(Document document) {
+            String immatriculation = document.get("immatriculation") != null ? document.get("immatriculation").toString() : "0000 XX 00";
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO immatriculation VALUES ('"
+                        + immatriculation + "', '"
+                        + document.get("marque") + "', '"
+                        + document.get("nom") + "', "
+                        + document.get("puissance") + ", '"
+                        + document.get("longueur") + "', '"
+                        + document.get("nbPlaces") + "', '"
+                        + document.get("nbPortes") + "', '"
+                        + document.get("couleur") + "', "
+                        + document.get("occasion") + ", "
+                        + document.get("prix")
+                        + ")");
+                System.out.println("Immatriculation " + document.get("immatriculation") + " créée");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création de l'immatriculation " + document.get("immatriculation"), e);
+            }
+        }
+
+        @Override
+        public void createManyFromMongo(List<Document> documents) {
+            documents.forEach(this::createFromMongo);
+        }
+
         @Override
         public void create(ImmatriculationEntity immatriculationEntity) {
             try {
-                HiveService.statement.executeUpdate("INSERT INTO immatriculation VALUES ("
-                        + immatriculationEntity.getImmatriculation() + ", "
-                        + immatriculationEntity.getMarque() + ", "
-                        + immatriculationEntity.getNom() + ", "
-                        + immatriculationEntity.getPuissance() + ", "
-                        + immatriculationEntity.getLongueur() + ", "
-                        + immatriculationEntity.getNbPlaces() + ", "
-                        + immatriculationEntity.getNbPortes() + ", "
-                        + immatriculationEntity.getCouleur() + ", "
+                HiveService.statement.executeUpdate("INSERT INTO immatriculation VALUES ('"
+                        + immatriculationEntity.getImmatriculation() + "', '"
+                        + immatriculationEntity.getMarque() + "', '"
+                        + immatriculationEntity.getNom() + "', "
+                        + immatriculationEntity.getPuissance() + ", '"
+                        + immatriculationEntity.getLongueur() + "', '"
+                        + immatriculationEntity.getCouleur() + "', "
                         + immatriculationEntity.isOccasion() + ", "
                         + immatriculationEntity.getPrix()
                         + ")");
@@ -34,10 +63,12 @@ public class HiveService {
 
         @Override
         public void update(ImmatriculationEntity immatriculationEntity) {
+
         }
 
         @Override
         public void delete(ImmatriculationEntity immatriculationEntity) {
+
         }
 
         @Override
@@ -54,23 +85,73 @@ public class HiveService {
         public void createMany(List<ImmatriculationEntity> immatriculationEntities) {
             immatriculationEntities.forEach(this::create);
         }
+
+        @Override
+        public void deleteAll() {
+            try {
+                HiveService.statement.execute("Truncate Table immatriculation");
+                System.out.println("Table immatriculation vidée");
+            } catch (SQLException e) {
+                e.printStackTrace();
+                throw new RuntimeException("Erreur lors de la vidage de la table immatriculation", e);
+            }
+        }
     }
 
-    static class MarketingService implements ICommun<MarketingEntity> {
+    static class MarketingService implements ICommun<MarketingEntity> , IFromMongo<Document> {
+
+
         @Override
-        public void create(MarketingEntity marketingService) {
+        public void createFromMongo(Document document) {
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO marketing VALUES ("
+                        + document.get("age") + ", '"
+                        + document.get("sexe") + "', "
+                        + document.get("taux") + ", '"
+                        + document.get("situationFamiliale") + "', "
+                        + document.get("nbEnfantsAcharge") + ", "
+                        + document.get("deuxiemeVoiture")
+                        + ")");
+                System.out.println("Marketing " + document.get("age") + " créé");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création du marketing " + document.get("age"), e);
+            }
         }
 
         @Override
-        public void update(MarketingEntity marketingService) {
+        public void createManyFromMongo(List<Document> documents) {
+            documents.forEach(this::createFromMongo);
         }
 
         @Override
-        public void delete(MarketingEntity marketingService) {
+        public void create(MarketingEntity marketingEntity) {
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO marketing VALUES ("
+                        + marketingEntity.getAge() + ", '"
+                        + marketingEntity.getSexe() + "', "
+                        + marketingEntity.getTaux() + ", '"
+                        + marketingEntity.getSituationFamiliale() + "', "
+                        + marketingEntity.getNbEnfantsAcharge() + ", "
+                        + marketingEntity.isDeuxiemeVoiture()
+                        + ")");
+                System.out.println("Marketing " + marketingEntity.getAge() + " créé");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création du marketing " + marketingEntity.getAge(), e);
+            }
         }
 
         @Override
-        public MarketingEntity get(MarketingEntity marketingService) {
+        public void update(MarketingEntity marketingEntity) {
+
+        }
+
+        @Override
+        public void delete(MarketingEntity marketingEntity) {
+
+        }
+
+        @Override
+        public MarketingEntity get(MarketingEntity marketingEntity) {
             return null;
         }
 
@@ -81,25 +162,80 @@ public class HiveService {
 
         @Override
         public void createMany(List<MarketingEntity> marketingEntities) {
+            marketingEntities.forEach(this::create);
+        }
 
+        @Override
+        public void deleteAll() {
+            try {
+                HiveService.statement.executeUpdate("Truncate Table marketing");
+                System.out.println("Table marketing vidée");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la vidage de la table marketing", e);
+            }
         }
     }
 
-    static class CatalogueService implements ICommun<CatalogueEntity> {
+    static class CatalogueService implements ICommun<CatalogueEntity>, IFromMongo<Document> {
+
+
         @Override
-        public void create(CatalogueEntity catalogueService) {
+        public void createFromMongo(Document document) {
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO catalogue VALUES ('"
+                        + document.get("marque") + "', '"
+                        + document.get("nom") + "', "
+                        + document.get("puissance") + ", '"
+                        + document.get("longueur") + "', "
+                        + document.get("nbPlaces") + ", "
+                        + document.get("nbPortes") + ", '"
+                        + document.get("couleur") + "', "
+                        + document.get("occasion") + ", "
+                        + document.get("prix")
+                        + ")");
+                System.out.println("Catalogue " + document.get("marque") + " créé");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création du catalogue " + document.get("marque"), e);
+            }
         }
 
         @Override
-        public void update(CatalogueEntity catalogueService) {
+        public void createManyFromMongo(List<Document> documents) {
+            documents.forEach(this::createFromMongo);
         }
 
         @Override
-        public void delete(CatalogueEntity catalogueService) {
+        public void create(CatalogueEntity catalogueEntity) {
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO catalogue VALUES ('"
+                        + catalogueEntity.getMarque() + "', '"
+                        + catalogueEntity.getNom() + "', "
+                        + catalogueEntity.getPuissance() + ", '"
+                        + catalogueEntity.getLongueur() + "', "
+                        + catalogueEntity.getNbPlaces() + ", "
+                        + catalogueEntity.getNbPortes() + ", '"
+                        + catalogueEntity.getCouleur() + "', "
+                        + catalogueEntity.isOccasion() + ", "
+                        + catalogueEntity.getPrix()
+                        + ")");
+                System.out.println("Catalogue " + catalogueEntity.getMarque() + " créé");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création du catalogue " + catalogueEntity.getMarque(), e);
+            }
         }
 
         @Override
-        public CatalogueEntity get(CatalogueEntity catalogueService) {
+        public void update(CatalogueEntity catalogueEntity) {
+
+        }
+
+        @Override
+        public void delete(CatalogueEntity catalogueEntity) {
+
+        }
+
+        @Override
+        public CatalogueEntity get(CatalogueEntity catalogueEntity) {
             return null;
         }
 
@@ -112,23 +248,63 @@ public class HiveService {
         public void createMany(List<CatalogueEntity> catalogueEntities) {
             catalogueEntities.forEach(this::create);
         }
+
+        @Override
+        public void deleteAll() {
+            try {
+                HiveService.statement.executeUpdate("Truncate Table catalogue");
+                System.out.println("Table catalogue vidée");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la vidage de la table catalogue", e);
+            }
+        }
     }
 
-    static class ClientService implements ICommun<ClientEntity> {
-        @Override
-        public void create(ClientEntity clientService) {
+    static class ClientService implements ICommun<ClientEntity>, IFromMongo<Document> {
+
+
+        public void createFromMongo(Document document) {
+            String deuxiemeVoiture = document.get("deuxiemeVoiture").toString().equals("true") ? "true" : "false";
+            String taux = document.get("taux").toString().equals("?") ? "0.0" : document.get("taux").toString();
+            String nbEnfantsACharge = document.get("nbEnfantsACharge").toString().equals(" ") || document.get("nbEnfantsACharge").toString().equals("?") ? "0" : document.get("nbEnfantsACharge").toString();
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO client VALUES ("
+                        + document.get("age") + ", '"
+                        + document.get("sexe") + "', "
+                        + taux+ ", '"
+                        + document.get("situationFamiliale") + "', "
+                        + nbEnfantsACharge + ", "
+                        + deuxiemeVoiture + ", '"
+                        + document.get("immatriculation")
+                        + "')");
+                System.out.println("Client " + document.get("age") + " créé");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création du client " + document.get("age"), e);
+            }
         }
 
         @Override
-        public void update(ClientEntity clientService) {
+        public void createManyFromMongo(List<Document> documents) {
+            documents.forEach(this::createFromMongo);
         }
 
         @Override
-        public void delete(ClientEntity clientService) {
+        public void create(ClientEntity clientEntity) {
+
         }
 
         @Override
-        public ClientEntity get(ClientEntity clientService) {
+        public void update(ClientEntity clientEntity) {
+
+        }
+
+        @Override
+        public void delete(ClientEntity clientEntity) {
+
+        }
+
+        @Override
+        public ClientEntity get(ClientEntity clientEntity) {
             return null;
         }
 
@@ -139,25 +315,60 @@ public class HiveService {
 
         @Override
         public void createMany(List<ClientEntity> clientEntities) {
-            clientEntities.forEach(this::create);
+
+        }
+
+        @Override
+        public void deleteAll() {
+            try {
+                HiveService.statement.executeUpdate("Truncate Table client");
+                System.out.println("Table client vidée");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la vidage de la table client", e);
+            }
         }
     }
 
-    static class Co2Service implements ICommun<Co2Entity> {
+    static class Co2Service implements ICommun<Co2Entity>, IFromMongo<Document> {
+
         @Override
-        public void create(Co2Entity co2Service) {
+        public void createFromMongo(Document document) {
+            try {
+                HiveService.statement.executeUpdate("INSERT INTO co2 VALUES ('"
+                        + document.get("modele") + "', '"
+                        + document.get("bonusMalus") + "', '"
+                        + document.get("rejetsCO2") + "', '"
+                        + document.get("coutEnergie")
+                        + "')");
+                System.out.println("Co2 " + document.get("modele") + " créé");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la création du co2 " + document.get("modele"), e);
+            }
+
         }
 
         @Override
-        public void update(Co2Entity co2Service) {
+        public void createManyFromMongo(List<Document> documents) {
+            documents.forEach(this::createFromMongo);
         }
 
         @Override
-        public void delete(Co2Entity co2Service) {
+        public void create(Co2Entity co2Entity) {
+
         }
 
         @Override
-        public Co2Entity get(Co2Entity co2Service) {
+        public void update(Co2Entity co2Entity) {
+
+        }
+
+        @Override
+        public void delete(Co2Entity co2Entity) {
+
+        }
+
+        @Override
+        public Co2Entity get(Co2Entity co2Entity) {
             return null;
         }
 
@@ -168,21 +379,38 @@ public class HiveService {
 
         @Override
         public void createMany(List<Co2Entity> co2Entities) {
-            co2Entities.forEach(this::create);
+
+        }
+
+        @Override
+        public void deleteAll() {
+            try {
+                HiveService.statement.executeUpdate("Truncate Table co2");
+                System.out.println("Table co2 vidée");
+            } catch (SQLException e) {
+                throw new RuntimeException("Erreur lors de la vidage de la table co2", e);
+            }
         }
     }
 
-    static interface ICommun<T> {
-        public void create(T t);
+    interface IFromMongo<T> {
+        void createFromMongo(T t);
+        void createManyFromMongo(List<T> tList);
+    }
 
-        public void update(T t);
+    interface ICommun<T> {
+        void create(T t);
 
-        public void delete(T t);
+        void update(T t);
 
-        public T get(T t);
+        void delete(T t);
 
-        public List<T> getAll();
+        T get(T t);
+
+        List<T> getAll();
         void createMany(List<T> tList);
+
+        void deleteAll();
     }
 
     private static void createTables() {
@@ -278,5 +506,41 @@ public class HiveService {
         CatalogueService catalogueService = new CatalogueService();
         ClientService clientService = new ClientService();
         Co2Service co2Service = new Co2Service();
+        MongodbConnectionService mongodbConnectionService = new MongodbConnectionService();
+        mongodbConnectionService.startConnection();
+        // Table immatriculation
+        Iterable<Document> immatriculation = mongodbConnectionService.getMongoDatabase().getCollection("immatriculations").find();
+        List<Document> immatriculationList = new ArrayList<>();
+        immatriculation.forEach(immatriculationList::add);
+        immatriculationService.deleteAll();
+        immatriculationService.createManyFromMongo(immatriculationList);
+        //Table marketing
+        List<Document> marketingList = new ArrayList<>();
+        Iterable<Document> marketing = mongodbConnectionService.getMongoDatabase().getCollection("marketing").find();
+        marketing.forEach(marketingList::add);
+//        marketingService.deleteAll();
+        marketingService.createManyFromMongo(marketingList);
+        //Table catalogue
+        List<Document> catalogueList = new ArrayList<>();
+        Iterable<Document> catalogue = mongodbConnectionService.getMongoDatabase().getCollection("catalogue").find();
+        catalogue.forEach(catalogueList::add);
+        catalogueService.deleteAll();
+        catalogueService.createManyFromMongo(catalogueList);
+        //Table client
+        List<Document> clientList = new ArrayList<>();
+        Iterable<Document> client = mongodbConnectionService.getMongoDatabase().getCollection("clients").find();
+        client.forEach(clientList::add);
+        clientService.deleteAll();
+        clientService.createManyFromMongo(clientList);
+        //Table co2
+        List<Document> co2List = new ArrayList<>();
+        Iterable<Document> co2 = mongodbConnectionService.getMongoDatabase().getCollection("co2").find();
+        co2.forEach(co2List::add);
+        co2Service.deleteAll();
+        co2Service.createManyFromMongo(co2List);
+        // Close the connection to Hive
+        hiveConnectionService.stopHQStatement();
+        // Close the connection to MongoDB
+        mongodbConnectionService.stopConnection();
     }
 }

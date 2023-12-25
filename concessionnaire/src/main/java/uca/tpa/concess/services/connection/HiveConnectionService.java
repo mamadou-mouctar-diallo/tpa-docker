@@ -46,9 +46,10 @@ public class HiveConnectionService {
         }
     }
 
-    public void stopHQStatement(Statement statement) {
+    public void stopHQStatement() {
         try {
-            statement.close();
+            System.out.println("Fermeture de la connexion à Hive");
+            connection.close();
             this.closeConnection();
         } catch (SQLException e) {
             throw new RuntimeException("Erreur lors de la fermeture de la connexion à Hive", e);

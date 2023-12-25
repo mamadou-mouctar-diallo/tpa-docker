@@ -78,7 +78,15 @@ Que vous ayez lance le service MongoBD dans un conteneur docker ou sur votre mac
 
 ## Echange de donnees entre MongoDB, OracleNoSql et Hive
 ### 1. Echange de donnees entre MongoDB et Hive
-Comin soon
+Ici, j'ai impelemente un programme java qui permet de charger les donnees de MongoDB dans Hive. Pour lancer le programme java, il faut d'abord lancer le service Hive et se connecter a la base de donnees MongoDB
+Pour lancer le service Hive dans votre machine locale, assurez-vous que vous avez bien installle Hive soit en locale ou depuis le docker avec les configurations dans ce projet.
+
+Une fois que vous avez tout installe, vous pouvez utiliser un intellij ou un autre IDE java pour lancer le programme en choisissant la classe HiveMain.java et cliquer sur le bouton run.
+Avant il faut savoir que le programme prend beaucoup de temps pour charger les donnees dans Hive, du coup il faut etre patient.
+
+Afin d'eviter les exceptions, il faut modifier la classe HiveConnnectionService.java le port de votre instance Hive et de meme pour MongoDB.
+
+Normalement si tout est bien configure, vous ne devriez pas avoir des problemes tout va bien demarrer.
 ### 2. Echange de donnees entre OracleNoSql et Hive
 Comin soon
 
