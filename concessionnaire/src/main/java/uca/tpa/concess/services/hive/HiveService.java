@@ -17,10 +17,9 @@ public class HiveService {
 
         @Override
         public void createFromMongo(Document document) {
-            String immatriculation = document.get("immatriculation") != null ? document.get("immatriculation").toString() : "0000 XX 00";
             try {
                 HiveService.statement.executeUpdate("INSERT INTO immatriculation VALUES ('"
-                        + immatriculation + "', '"
+                        + document.get("immatriculation") + "', '"
                         + document.get("marque") + "', '"
                         + document.get("nom") + "', "
                         + document.get("puissance") + ", '"
@@ -264,17 +263,14 @@ public class HiveService {
 
 
         public void createFromMongo(Document document) {
-            String deuxiemeVoiture = document.get("deuxiemeVoiture").toString().equals("true") ? "true" : "false";
-            String taux = document.get("taux").toString().equals("?") ? "0.0" : document.get("taux").toString();
-            String nbEnfantsACharge = document.get("nbEnfantsACharge").toString().equals(" ") || document.get("nbEnfantsACharge").toString().equals("?") ? "0" : document.get("nbEnfantsACharge").toString();
             try {
                 HiveService.statement.executeUpdate("INSERT INTO client VALUES ("
                         + document.get("age") + ", '"
                         + document.get("sexe") + "', "
-                        + taux+ ", '"
+                        + document.get("taux")+ ", '"
                         + document.get("situationFamiliale") + "', "
-                        + nbEnfantsACharge + ", "
-                        + deuxiemeVoiture + ", '"
+                        + document.get("nbEnfantsACharge") + ", "
+                        + document.get("deuxiemeVoiture") + ", '"
                         + document.get("immatriculation")
                         + "')");
                 System.out.println("Client " + document.get("age") + " créé");
@@ -509,11 +505,11 @@ public class HiveService {
         MongodbConnectionService mongodbConnectionService = new MongodbConnectionService();
         mongodbConnectionService.startConnection();
         // Table immatriculation
-        Iterable<Document> immatriculation = mongodbConnectionService.getMongoDatabase().getCollection("immatriculations").find();
-        List<Document> immatriculationList = new ArrayList<>();
-        immatriculation.forEach(immatriculationList::add);
-        immatriculationService.deleteAll();
-        immatriculationService.createManyFromMongo(immatriculationList);
+//        Iterable<Document> immatriculation = mongodbConnectionService.getMongoDatabase().getCollection("immatriculations").find();
+//        List<Document> immatriculationList = new ArrayList<>();
+//        immatriculation.forEach(immatriculationList::add);
+//        immatriculationService.deleteAll();
+//        immatriculationService.createManyFromMongo(immatriculationList);
         //Table marketing
         List<Document> marketingList = new ArrayList<>();
         Iterable<Document> marketing = mongodbConnectionService.getMongoDatabase().getCollection("marketing").find();
