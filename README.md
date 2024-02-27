@@ -33,7 +33,12 @@ Ce référentiel contient une configuration Docker prête à l'emploi pour dépl
 - **Cassandra CQLSH**: [localhost:9042](http://localhost:9042)
 - **PostgreSQL**: [localhost:5432](http://localhost:5432)
 - **Mongo Express**: [localhost:8081](http://localhost:8081)
-
+Dataviz:
+- **visuel backend**http://localhost:8000 (Exécution d'un projet Django)
+- **visuel frontend**http://localhost:8080 (npm run dev sous le repo big-scre
+en-vue-datav-master)
+*Note: L'affichage Dataviz des Big Data est retardé ou dépassé, il faut l'améliorer
+  
 ## Personnalisation
 
 Vous pouvez personnaliser la configuration en modifiant le fichier `docker-compose.yml` selon vos besoins spécifiques.
