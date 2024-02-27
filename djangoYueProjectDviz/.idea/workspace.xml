@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:features" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d945667f-c893-4dd8-8367-9873812ee9b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/03d4569ca9f2399970139e9ed026cdbf.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/03d4569ca9f2399970139e9ed026cdbf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/171cce588ec2363ff5ab7fa0e576649d.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/171cce588ec2363ff5ab7fa0e576649d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2299592225cf1877b6c04b5e81265621.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2299592225cf1877b6c04b5e81265621.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2d4179c3fd9fc45a87ca0c42c775397a.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2d4179c3fd9fc45a87ca0c42c775397a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/5579c68f73aa342442a551d9f3da47f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/5579c68f73aa342442a551d9f3da47f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6ba7cb2536b127191c7d66ceae2151d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6ba7cb2536b127191c7d66ceae2151d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6c8c135033a8e8a8e73ad00b13e19fe2.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6c8c135033a8e8a8e73ad00b13e19fe2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/86e47c1e5e6f10438e16d0aa1a74ced0.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/86e47c1e5e6f10438e16d0aa1a74ced0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/97bf091f7befc7f28eae4df4fbcbe5cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/97bf091f7befc7f28eae4df4fbcbe5cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/bcec959772848aaa7b04d34d37a8c934.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/bcec959772848aaa7b04d34d37a8c934.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/d8c80bf1da994b7560f07bfb12a40f67.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/d8c80bf1da994b7560f07bfb12a40f67.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/efe16879aae8a62e1dcfc2099b9ca2be.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/efe16879aae8a62e1dcfc2099b9ca2be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/fb93f9564dc494e8fe3f50ff5fdb8758.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/fb93f9564dc494e8fe3f50ff5fdb8758.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/004286c273d947ffd6913a51994b1144.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/004286c273d947ffd6913a51994b1144.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/0f041fd218722f1e0672d5544c90eafb.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/0f041fd218722f1e0672d5544c90eafb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/207507d005e41ba4b7fbcdc03b3d3e54.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/207507d005e41ba4b7fbcdc03b3d3e54.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/2116dc1ea45fefeaf98bb7645d49325f.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/2116dc1ea45fefeaf98bb7645d49325f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/3c3450b75c01a97a6d143d8b80edc0cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/3c3450b75c01a97a6d143d8b80edc0cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/4ac7b1d58cc976815df491dac4f0ff44.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/4ac7b1d58cc976815df491dac4f0ff44.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/69cdaadc6e187af76dc20daef4700245.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/69cdaadc6e187af76dc20daef4700245.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6c4db28b93c0ebd12415be3ea720e7bd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6c4db28b93c0ebd12415be3ea720e7bd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6f16fbc0cc54d50bfba201d636a27893.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6f16fbc0cc54d50bfba201d636a27893.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/89c855132ddb33f4c9ee011d174b79dd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/89c855132ddb33f4c9ee011d174b79dd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/8cad794ea907d998e1591d5b0ae6cbb0.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/8cad794ea907d998e1591d5b0ae6cbb0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9133b9c45189c5f12c3dff67fdd0de57.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9133b9c45189c5f12c3dff67fdd0de57.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9293237065c84523792bdcd1ee634ae6.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9293237065c84523792bdcd1ee634ae6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/96065388a8e3e8dc25c9c7284ec5fe3e.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/96065388a8e3e8dc25c9c7284ec5fe3e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/a5dd8c7720607c3019038fe13bbe8b64.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/a5dd8c7720607c3019038fe13bbe8b64.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b4474fce92cf21f07f7dc00fee49ada9.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b4474fce92cf21f07f7dc00fee49ada9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b47fd7079747244656229dadf4df77a0.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b47fd7079747244656229dadf4df77a0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b8bd48a60e81dfc959824de33d5493ed.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b8bd48a60e81dfc959824de33d5493ed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/ba4ddf87193fc10ae16bb6f66aed19db.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/ba4ddf87193fc10ae16bb6f66aed19db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/bf00e36b5404057db0fb158409e7b196.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/bf00e36b5404057db0fb158409e7b196.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c22700598c9537fc53227cf15ed5d222.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c22700598c9537fc53227cf15ed5d222.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c29c7a34407311f74be3db3b80f772bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c29c7a34407311f74be3db3b80f772bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c845edfd70fd2ac7eb267a2aac450fd3.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c845edfd70fd2ac7eb267a2aac450fd3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/cc31a0e93de231f42732c76c29a935bf.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/cc31a0e93de231f42732c76c29a935bf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e01efd15a357ecee30dc30779641bc35.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e01efd15a357ecee30dc30779641bc35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e31471eb2c1ab40ea20aa0bac9f1475c.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e31471eb2c1ab40ea20aa0bac9f1475c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e398da3b8c53019551c3e04c865c4973.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e398da3b8c53019551c3e04c865c4973.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="3102d20e-b075-4ff3-af4d-a1d06e9fa00c" />
+  <component name="ProjectId" id="2YncZbVZ7cyCUmiYpAZHhOpsuoD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../djangoYueProjectDviz" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="C:\YueGUOsoft\PyCharm2020.2\PyCharm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\18117\Desktop\M2\M2BIGDATA\djangoYueProjectDviz" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\18117\Desktop\M2\M2BIGDATA\djangoYueProjectDviz\big-screen-vue-datav-master\public" />
+      <recent name="C:\Users\18117\Desktop\M2\M2BIGDATA\djangoYueProjectDviz\myDviz\migrations" />
+      <recent name="C:\Users\18117\Desktop\M2\M2BIGDATA\djangoYueProjectDviz" />
+      <recent name="C:\Users\18117\Desktop\M2\M2BIGDATA\djangoYueProjectDviz\big-screen-vue-datav-master" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.djangoYueProjectDviz">
+    <configuration name="word-cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoYueProjectDviz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myDviz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myDviz/word-cloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="djangoYueProjectDviz" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoYueProjectDviz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoYueProjectDviz.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.word-cloud" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d945667f-c893-4dd8-8367-9873812ee9b9" name="Default Changelist" comment="" />
+      <created>1701164841134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701164841134</updated>
+      <workItem from="1701164842939" duration="14619000" />
+      <workItem from="1701192019381" duration="888000" />
+      <workItem from="1701331940178" duration="1419000" />
+      <workItem from="1702201482029" duration="1232000" />
+      <workItem from="1702461302455" duration="2133000" />
+      <workItem from="1702885791783" duration="1260000" />
+      <workItem from="1703844103165" duration="2445000" />
+      <workItem from="1703847006084" duration="2107000" />
+      <workItem from="1703849474453" duration="443000" />
+      <workItem from="1703849927706" duration="27338000" />
+      <workItem from="1703890057595" duration="9679000" />
+      <workItem from="1703918157729" duration="34000" />
+      <workItem from="1703918435788" duration="62717000" />
+      <workItem from="1704006580544" duration="24000000" />
+      <workItem from="1704036165291" duration="3924000" />
+      <workItem from="1704043221916" duration="15033000" />
+      <workItem from="1704059020941" duration="5739000" />
+      <workItem from="1704719556625" duration="19000" />
+      <workItem from="1709038199983" duration="693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="819" y="198" key="#Web_Browsers" timestamp="1701332023662">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="819" y="198" key="#Web_Browsers/0.0.1536.816@0.0.1536.816" timestamp="1701332023662" />
+    <state x="883" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1704033740398">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="883" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1704033740398" />
+    <state x="549" y="150" key="FileChooserDialogImpl" timestamp="1709038610803">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="150" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1709038610803" />
+    <state width="724" height="280" key="GridCell.Tab.0.bottom" timestamp="1709038499658">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="724" height="280" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1709038499658" />
+    <state width="724" height="280" key="GridCell.Tab.0.center" timestamp="1709038499656">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="724" height="280" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1709038499656" />
+    <state width="724" height="280" key="GridCell.Tab.0.left" timestamp="1709038499655">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="724" height="280" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1709038499655" />
+    <state width="724" height="280" key="GridCell.Tab.0.right" timestamp="1709038499657">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="724" height="280" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1709038499657" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1701189068611">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.816@0.0.1536.816" timestamp="1701189068611" />
+    <state x="277" y="53" key="SettingsEditor" timestamp="1701165139900">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1701165139900" />
+    <state x="736" y="0" width="643" height="822" key="dock-window-1" timestamp="1703937296571">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="736" y="0" width="643" height="822" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1703937296571" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-10" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-10/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-11" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-11/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-12" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-12/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-13" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-13/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-14" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-14/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-15" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-15/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-16" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-16/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-17" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-17/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-18" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-18/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-19" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-19/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-2" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-2/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-20" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-20/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-21" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-21/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-22" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-22/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-23" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-23/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-24" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-24/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-25" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-25/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-26" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-26/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-27" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-27/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-28" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-28/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-29" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-29/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-3" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-3/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-30" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-30/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-31" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-31/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-32" timestamp="1703918063253">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-32/0.0.1536.816@0.0.1536.816" timestamp="1703918063253" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-33" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-33/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-34" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-34/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-35" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-35/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-36" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-36/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-37" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-37/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-38" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-38/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-39" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-39/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-4" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-4/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-40" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-40/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-41" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-41/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-42" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-42/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-43" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-43/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-44" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-44/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-45" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-45/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-46" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-46/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-47" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-47/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-48" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-48/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-49" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-49/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-5" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-5/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-50" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-50/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-51" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-51/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-52" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-52/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-53" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-53/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-54" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-54/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-55" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-55/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-56" timestamp="1703918063254">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-56/0.0.1536.816@0.0.1536.816" timestamp="1703918063254" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-57" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-57/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-58" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-58/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-59" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-59/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-6" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-6/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-60" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-60/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-61" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-61/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-62" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-62/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-63" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-63/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-64" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-64/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-65" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-65/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-66" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-66/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-67" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-67/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-68" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-68/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-69" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-69/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-7" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-7/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-70" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-70/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-71" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-71/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-72" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-72/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-73" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-73/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-74" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-74/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-75" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-75/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-8" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-8/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-9" timestamp="1703918063255">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="dock-window-9/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
+    <state x="772" y="15" width="579" height="801" key="find.popup" timestamp="1704059481393">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="772" y="15" width="579" height="801" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1704059481393" />
+    <state x="809" y="68" width="672" height="676" key="search.everywhere.popup" timestamp="1704028728030">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="809" y="68" width="672" height="676" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1704028728030" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoYueProjectDviz$word_cloud.coverage" NAME="word-cloud Coverage Results" MODIFIED="1703953939711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myDviz" />
+  </component>
+</project>
