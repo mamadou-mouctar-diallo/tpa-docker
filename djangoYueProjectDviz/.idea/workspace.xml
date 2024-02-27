@@ -25,7 +25,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d945667f-c893-4dd8-8367-9873812ee9b9" name="Default Changelist" comment="" />
+    <list default="true" id="d945667f-c893-4dd8-8367-9873812ee9b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/03d4569ca9f2399970139e9ed026cdbf.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/03d4569ca9f2399970139e9ed026cdbf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/171cce588ec2363ff5ab7fa0e576649d.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/171cce588ec2363ff5ab7fa0e576649d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2299592225cf1877b6c04b5e81265621.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2299592225cf1877b6c04b5e81265621.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2d4179c3fd9fc45a87ca0c42c775397a.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/2d4179c3fd9fc45a87ca0c42c775397a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/5579c68f73aa342442a551d9f3da47f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/5579c68f73aa342442a551d9f3da47f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6ba7cb2536b127191c7d66ceae2151d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6ba7cb2536b127191c7d66ceae2151d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6c8c135033a8e8a8e73ad00b13e19fe2.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/6c8c135033a8e8a8e73ad00b13e19fe2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/86e47c1e5e6f10438e16d0aa1a74ced0.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/86e47c1e5e6f10438e16d0aa1a74ced0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/97bf091f7befc7f28eae4df4fbcbe5cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/97bf091f7befc7f28eae4df4fbcbe5cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/bcec959772848aaa7b04d34d37a8c934.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/bcec959772848aaa7b04d34d37a8c934.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/d8c80bf1da994b7560f07bfb12a40f67.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/d8c80bf1da994b7560f07bfb12a40f67.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/efe16879aae8a62e1dcfc2099b9ca2be.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/efe16879aae8a62e1dcfc2099b9ca2be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/fb93f9564dc494e8fe3f50ff5fdb8758.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/babel-loader/fb93f9564dc494e8fe3f50ff5fdb8758.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/004286c273d947ffd6913a51994b1144.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/004286c273d947ffd6913a51994b1144.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/0f041fd218722f1e0672d5544c90eafb.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/0f041fd218722f1e0672d5544c90eafb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/207507d005e41ba4b7fbcdc03b3d3e54.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/207507d005e41ba4b7fbcdc03b3d3e54.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/2116dc1ea45fefeaf98bb7645d49325f.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/2116dc1ea45fefeaf98bb7645d49325f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/3c3450b75c01a97a6d143d8b80edc0cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/3c3450b75c01a97a6d143d8b80edc0cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/4ac7b1d58cc976815df491dac4f0ff44.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/4ac7b1d58cc976815df491dac4f0ff44.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/69cdaadc6e187af76dc20daef4700245.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/69cdaadc6e187af76dc20daef4700245.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6c4db28b93c0ebd12415be3ea720e7bd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6c4db28b93c0ebd12415be3ea720e7bd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6f16fbc0cc54d50bfba201d636a27893.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/6f16fbc0cc54d50bfba201d636a27893.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/89c855132ddb33f4c9ee011d174b79dd.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/89c855132ddb33f4c9ee011d174b79dd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/8cad794ea907d998e1591d5b0ae6cbb0.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/8cad794ea907d998e1591d5b0ae6cbb0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9133b9c45189c5f12c3dff67fdd0de57.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9133b9c45189c5f12c3dff67fdd0de57.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9293237065c84523792bdcd1ee634ae6.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/9293237065c84523792bdcd1ee634ae6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/96065388a8e3e8dc25c9c7284ec5fe3e.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/96065388a8e3e8dc25c9c7284ec5fe3e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/a5dd8c7720607c3019038fe13bbe8b64.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/a5dd8c7720607c3019038fe13bbe8b64.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b4474fce92cf21f07f7dc00fee49ada9.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b4474fce92cf21f07f7dc00fee49ada9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b47fd7079747244656229dadf4df77a0.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b47fd7079747244656229dadf4df77a0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b8bd48a60e81dfc959824de33d5493ed.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/b8bd48a60e81dfc959824de33d5493ed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/ba4ddf87193fc10ae16bb6f66aed19db.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/ba4ddf87193fc10ae16bb6f66aed19db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/bf00e36b5404057db0fb158409e7b196.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/bf00e36b5404057db0fb158409e7b196.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c22700598c9537fc53227cf15ed5d222.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c22700598c9537fc53227cf15ed5d222.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c29c7a34407311f74be3db3b80f772bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c29c7a34407311f74be3db3b80f772bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c845edfd70fd2ac7eb267a2aac450fd3.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/c845edfd70fd2ac7eb267a2aac450fd3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/cc31a0e93de231f42732c76c29a935bf.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/cc31a0e93de231f42732c76c29a935bf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e01efd15a357ecee30dc30779641bc35.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e01efd15a357ecee30dc30779641bc35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e31471eb2c1ab40ea20aa0bac9f1475c.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e31471eb2c1ab40ea20aa0bac9f1475c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e398da3b8c53019551c3e04c865c4973.json" beforeDir="false" afterPath="$PROJECT_DIR$/big-screen-vue-datav-master/node_modules/.cache/vue-loader/e398da3b8c53019551c3e04c865c4973.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +81,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +99,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../djangoYueProjectDviz" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -153,8 +196,11 @@
       <workItem from="1703918157729" duration="34000" />
       <workItem from="1703918435788" duration="62717000" />
       <workItem from="1704006580544" duration="24000000" />
-      <workItem from="1704036165291" duration="3299000" />
-      <workItem from="1704040624212" duration="1772000" />
+      <workItem from="1704036165291" duration="3924000" />
+      <workItem from="1704043221916" duration="15033000" />
+      <workItem from="1704059020941" duration="5739000" />
+      <workItem from="1704719556625" duration="19000" />
+      <workItem from="1709038199983" duration="693000" />
     </task>
     <servers />
   </component>
@@ -181,26 +227,26 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="883" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1704033740398" />
-    <state x="549" y="150" key="FileChooserDialogImpl" timestamp="1702885856142">
+    <state x="549" y="150" key="FileChooserDialogImpl" timestamp="1709038610803">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="150" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1702885856142" />
-    <state width="723" height="194" key="GridCell.Tab.0.bottom" timestamp="1704041076307">
+    <state x="549" y="150" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1709038610803" />
+    <state width="724" height="280" key="GridCell.Tab.0.bottom" timestamp="1709038499658">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="194" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1704041076307" />
-    <state width="723" height="194" key="GridCell.Tab.0.center" timestamp="1704041076307">
+    <state width="724" height="280" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1709038499658" />
+    <state width="724" height="280" key="GridCell.Tab.0.center" timestamp="1709038499656">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="194" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1704041076307" />
-    <state width="723" height="194" key="GridCell.Tab.0.left" timestamp="1704041076307">
+    <state width="724" height="280" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1709038499656" />
+    <state width="724" height="280" key="GridCell.Tab.0.left" timestamp="1709038499655">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="194" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1704041076307" />
-    <state width="723" height="194" key="GridCell.Tab.0.right" timestamp="1704041076307">
+    <state width="724" height="280" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1709038499655" />
+    <state width="724" height="280" key="GridCell.Tab.0.right" timestamp="1709038499657">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="723" height="194" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1704041076307" />
+    <state width="724" height="280" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1709038499657" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1701189068611">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -509,10 +555,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="dock-window-9/0.0.1536.816@0.0.1536.816" timestamp="1703918063255" />
-    <state x="772" y="15" width="579" height="801" key="find.popup" timestamp="1704038566912">
+    <state x="772" y="15" width="579" height="801" key="find.popup" timestamp="1704059481393">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="772" y="15" width="579" height="801" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1704038566912" />
+    <state x="772" y="15" width="579" height="801" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1704059481393" />
     <state x="809" y="68" width="672" height="676" key="search.everywhere.popup" timestamp="1704028728030">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
